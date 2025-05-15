@@ -1,0 +1,54 @@
+.app-layout {
+  display: flex;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0d0d0d;
+  color: white;
+}
+
+.sidebar {
+  width: 240px;
+  background-color: #141414;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .sidebar-header {
+    h2 {
+      color: #b25eff;
+      margin: 0;
+    }
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+
+    .nav-link {
+      color: #ccc;
+      text-decoration: none;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+      padding: 0.5rem;
+      border-radius: 8px;
+
+      &.active,
+      &:hover {
+        background-color: #222;
+        color: #b25eff;
+      }
+    }
+  }
+
+  .language-switcher {
+    margin-top: auto;
+  }
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+}

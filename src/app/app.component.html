@@ -1,0 +1,36 @@
+<!--<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <h1> STAYMAP Communities</h1>
+    <div class="mat-spacer"></div>
+    @for (option of options; track option.label) {
+      <a mat-button [routerLink]="option.link" routerLinkActive="active">{{ option.label | translate }}</a>
+    }
+    <app-language-switcher></app-language-switcher>
+  </mat-toolbar-row>
+</mat-toolbar>
+<router-outlet /> -->
+
+<div class="app-layout">
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <h2>STAYMAP</h2>
+    </div>
+    <nav class="nav-links">
+      <a *ngFor="let option of options"
+         [routerLink]="option.link"
+         routerLinkActive="active"
+         class="nav-link">
+        {{ option.label | translate }}
+      </a>
+    </nav>
+    <div class="language-switcher">
+      <app-language-switcher></app-language-switcher>
+    </div>
+  </aside>
+
+  <!-- Main content -->
+  <main class="main-content">
+    <router-outlet></router-outlet>
+  </main>
+</div>
