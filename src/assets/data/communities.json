@@ -1,0 +1,74 @@
+ {
+      "id": "1",
+      "nombre": "Swifties",
+      "cantMiembros": "12k",
+      "imagen": "https://static.eldiario.es/clip/1b3c61f9-6ad5-406b-9243-0dfb2625f66e_16-9-discover-aspect-ratio_default_1093664.jpg"
+    },
+    {
+      "id": "2",
+      "nombre": "ARMY",
+      "cantMiembros": "2k",
+      "imagen": "https://primary.jwwb.nl/public/s/x/o/temp-croccjjgvzkatfltrkgd/7sxulq/img_7983-2.jpg"
+    },
+    {
+      "id": "3",
+      "nombre": "Moonwalkers",
+      "cantMiembros": "44k",
+      "imagen": "https://www.sapere.it/.imaging/mte/sapere/624x410/dam/pillole-di-sapere/cultura-e-spettacolo/Michael-Jackson.jpg/jcr:content/Michael%20Jackson.jpg"
+    },
+    {
+      "id": "4",
+      "nombre": "Beliebers",
+      "cantMiembros": "8k",
+      "imagen": "https://img2.rtve.es/i/?w=1600&i=1618386529042.jpg"
+    },
+    {
+      "id": "5",
+      "nombre": "The Weeknd fans",
+      "cantMiembros": "6k",
+      "imagen": "https://plus.cusica.com/wp-content/uploads/2022/01/698360ec-0075-4b23-808f-da00363878bc.png"
+    },
+    {
+      "id": "6",
+      "nombre": "Bad Bunny fans",
+      "cantMiembros": "8k",
+      "imagen": "https://bizarro.cl/wp-content/uploads/2025/05/IMG_5904.png"
+    },
+    {
+      "id": "7",
+      "nombre": "Little Monsters",
+      "cantMiembros": "5k",
+      "imagen": "https://s2-oglobo.glbimg.com/uziCc9sYT3P8lNa7P25V_0N3s88=/0x0:1080x720/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/e/A/Yw8ALqRSK918NZdUgThg/ladyagaga-afp.jpg"
+    },
+    {
+      "id": "8",
+      "nombre": "Rosalía fans",
+      "cantMiembros": "4k",
+      "imagen": "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/12/03/16700731491703.jpg"
+    },
+    {
+      "id": "9",
+      "nombre": "Directioners",
+      "cantMiembros": "6k",
+      "imagen": "https://wallpapers.com/images/featured/imagenes-de-one-direction-1s8chz4nmf9vxwde.jpg"
+    },
+    {
+      "id": "10",
+      "nombre": "Linkin Park fans",
+      "cantMiembros": "14k",
+      "imagen": "https://www.ebilet.pl/now/app/uploads/2025/03/Linkin_Park-desktop-1280x720.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Lol",
+      "memberQuantity": "100k",
+      "image": "https://i.pinimg.com/736x/99/36/d3/9936d33d2d3e30fe1c5cb372b5f673bd.jpg",
+      "apiId": "v1"
+    },
+    {
+      "id": "12",
+      "name": "lolazo",
+      "memberQuantity": "699k",
+      "image": "https://i.pinimg.com/736x/99/36/d3/9936d33d2d3e30fe1c5cb372b5f673bd.jpg",
+      "apiId": "v1"
+    }
