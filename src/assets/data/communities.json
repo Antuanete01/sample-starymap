@@ -1,5 +1,4 @@
-{
-  "communities": [
+[
     {
       "id": "1",
       "nombre": "Swifties",
@@ -75,4 +74,4 @@
       "apiId": "v1"
     }
   ]
-}
+
