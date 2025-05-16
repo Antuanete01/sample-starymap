@@ -17,10 +17,11 @@ export class CommunityService extends BaseService<Community>{
   }
 
 override getAll(): Observable<Community[]> {
-  return this.http.get<any[]>(this.resourcePath(), this.httpOptions).pipe(
+  return this.http.get<any>(this.resourcePath(), this.httpOptions).pipe(
     map(data => {
-      console.log('🟢 Datos cargados:', data);
-      return data.map((item: any) => new Community({
+      const list = Array.isArray(data) ? data : data.communities ?? [];
+
+      return list.map((item: any) => new Community({
         id: item.id,
         name: item.name || item.nombre || '',
         memberQuantity: item.memberQuantity || item.cantMiembros || '',
@@ -30,4 +31,5 @@ override getAll(): Observable<Community[]> {
     catchError(this.handleError)
   );
 }
+
 }
