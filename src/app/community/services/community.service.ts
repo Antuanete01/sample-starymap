@@ -19,9 +19,17 @@ export class CommunityService extends BaseService<Community>{
 override getAll(): Observable<Community[]> {
   return this.http.get<any>(this.resourcePath(), this.httpOptions).pipe(
     map(data => {
-      const list = Array.isArray(data) ? data : data.communities ?? [];
+      let communitiesArray = [];
 
-      return list.map((item: any) => new Community({
+      if (Array.isArray(data)) {
+        communitiesArray = data;
+      } else if ('communities' in data && Array.isArray(data.communities)) {
+        communitiesArray = data.communities;
+      } else {
+        console.error("❌ El JSON no tiene el formato esperado.");
+      }
+
+      return communitiesArray.map((item: any) => new Community({
         id: item.id,
         name: item.name || item.nombre || '',
         memberQuantity: item.memberQuantity || item.cantMiembros || '',
